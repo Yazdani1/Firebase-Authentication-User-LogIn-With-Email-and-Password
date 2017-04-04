@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="firebase.firebase16allupdate.MainActivity">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email:"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_margin="20dp"
+        android:id="@+id/email_xml"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password:"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_margin="20dp"
+        android:id="@+id/password_xml"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:text="Sign In"
+        android:id="@+id/sign_in_btn_xml"
+        android:background="@color/colorPrimary"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#fff"
+        />
+
+
+
+</LinearLayout>
